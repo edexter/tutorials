@@ -42,7 +42,7 @@ for(i in 1:maxSize){
 
 #Combine results into a dataframe
 index <- 1:maxSize
-df <- data.frame(index, speedUp,speedDif)
+df <- data.frame(index,speedDif)
 ################################################################################
 #Plot results
 ggplot(df, aes(y=speedDif, x=index)) +
